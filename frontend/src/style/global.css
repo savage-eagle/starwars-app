@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #ededed;
+    font-size: 14px;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button {
+    border-radius: 20px;
+    background-color: #0ab463;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 34px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:disabled {
+    background-color: #c4c4c4;
+    cursor: default;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #089954;
+}
